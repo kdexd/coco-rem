@@ -1,5 +1,4 @@
 *.diff
-*.jpg
 
 # compilation and distribution
 __pycache__
@@ -13,15 +12,29 @@ build/
 dist/
 wheels/
 
+# Python virtual environments.
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+/.virtual_documents
+
+# IPython
+profile_default/
+ipython_config.py
+
+
 # pytorch/python/numpy formats
 *.pth
 *.pkl
 *.npy
 *.pt
-
-# ipython/jupyter notebooks
-*.ipynb
-**/.ipynb_checkpoints/
 
 # Editor temporaries
 *.swn

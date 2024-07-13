@@ -1,0 +1,7 @@
+fvcore==0.1.5.post20221221
+hydra-core>=1.1
+numpy==1.24.1
+omegaconf>=2.1
+pycocotools>=2.0
+einops>=0.6
+wget>=3.0
